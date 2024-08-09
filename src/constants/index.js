@@ -52,7 +52,7 @@ export const PROJECTS = [
     title: "Calculator",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A responsive web-based calculator built with React. It supports basic arithmetic operations and showcases clean design, efficient state management, and an intuitive user interface.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
     link: "https://jazakhan.com/"
   },
@@ -60,7 +60,7 @@ export const PROJECTS = [
     title: "Pantry Tracker",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "A pantry management app that allows users to track inventory, set expiration reminders, and generate shopping lists. It’s built with Angular and Firebase, focusing on data persistence and real-time updates.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
     link: "https://jazakhan.com/"
   },
@@ -68,7 +68,7 @@ export const PROJECTS = [
     title: "AI Customer Support",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "An AI-driven chatbot platform designed to automate customer service interactions. It’s built using React and Bootstrap, integrating natural language processing to provide instant responses and streamline customer support operations.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
     link: "https://jazakhan.com/"
   },
@@ -76,7 +76,7 @@ export const PROJECTS = [
     title: "AI Flashcards & Stripe",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "A flashcard app that utilizes AI to generate personalized learning content. Integrated with Stripe for seamless payments, the platform is built with Vue.js, Express, and mySQL, offering a complete learning and transaction experience.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
     link: "https://jazakhan.com/"
   },
@@ -84,7 +84,7 @@ export const PROJECTS = [
     title: "Grand Finale",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Undecided for now!",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
     link: "https://jazakhan.com/"
   },
