@@ -55,42 +55,27 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Calculator",
+    title: "Landing Page",
     image: project1,
     description:
-      "A responsive web-based calculator built with React. It supports basic arithmetic operations and showcases clean design, efficient state management, and an intuitive user interface.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A personal website created using React and styled with Tailwind CSS. This responsive site showcases my portfolio, skills, and projects. It features an intuitive layout, smooth navigation, and modern design elements, providing a professional online presence.",
+    technologies: ["Tailwind CSS", "React", "Framer Motion"],
     link: "https://jazakhan.com/",
   },
   {
     title: "PantrySmart",
     image: project2,
     description:
-      "A pantry management app that allows users to track inventory, set and edit quantities, and add additional items.",
+      "A pantry management app focused on core functionality rather than design. It allows users to track inventory, set and edit quantities, and add additional items, built using Next.js, React, and Firebase.",
     technologies: ["Next.js", "React", "Firebase"],
     link: "https://pantry-smart-20svv7hww-jazas-projects-d818107e.vercel.app/",
-  },
-  {
-    title: "AI Customer Support",
-    image: project3,
-    description:
-      "An AI-driven chatbot platform designed to automate customer service interactions. It’s built using React and Bootstrap, integrating natural language processing to provide instant responses and streamline customer support operations.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    link: "https://jazakhan.com/",
   },
   {
     title: "AI Flashcards & Stripe",
     image: project4,
     description:
-      "A flashcard app that utilizes AI to generate personalized learning content. Integrated with Stripe for seamless payments, the platform is built with Vue.js, Express, and mySQL, offering a complete learning and transaction experience.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    link: "https://jazakhan.com/",
-  },
-  {
-    title: "Grand Finale",
-    image: project3,
-    description: "Undecided for now!",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    link: "https://jazakhan.com/",
+      "Under Developement - A flashcard app that uses AI to create personalized learning content and integrates Stripe for seamless payments. The app is built with Next.js, React, Tailwind CSS, and Prisma, providing a modern and efficient learning experience.",
+    technologies: ["Next.js", "React", "Tailwind", "Prisma", "Stripe"],
+    link: "https://github.com/JazaKhan/FlashMasterAI",
   },
 ];
