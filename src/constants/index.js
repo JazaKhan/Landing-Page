@@ -7,7 +7,7 @@ export const HERO_CONTENT = `As a UBC Computer Science student and Software Engi
 
 export const EXPERIENCES = [
   {
-    year: "2022 - 2023",
+    year: "2024 - 2024",
     role: "Software Engineering Fellow",
     company: "Headstarter",
     description: `Actively participating in a rigorous 7-week software engineering fellowship, where I am honing my technical skills through hands-on projects and intensive learning. Engaging in weekly AI projects, hackathons, and collaborative final projects aimed at real-world impact. This experience is sharpening my abilities in software development, problem-solving, and teamwork, while also providing valuable feedback from industry professionals to accelerate my career trajectory.`,
@@ -63,19 +63,27 @@ export const PROJECTS = [
     link: "https://jazakhan.com/",
   },
   {
-    title: "PantrySmart",
+    title: "WealthHealth",
     image: project2,
     description:
-      "A pantry management app focused on core functionality rather than design. It allows users to track inventory, set and edit quantities, and add additional items, built using Next.js, React, and Firebase.",
-    technologies: ["Next.js", "React", "Firebase"],
-    link: "https://pantry-smart-20svv7hww-jazas-projects-d818107e.vercel.app/",
+      "Under Developement - Developing an engaging financial management app in Java to help users track expenses, manage income, and create actionable financial plans. Incorporating user stories for features like expense tracking, income management, and data persistence to support consistent and effective financial tracking. Access to project repository will be made available at the end of CPSC 210 Fall 2024 session.",
+    technologies: ["Java", "...TBD"],
+    link: "",
   },
   {
     title: "AI Flashcards & Stripe",
-    image: project4,
+    image: project3,
     description:
-      "Under Developement - A flashcard app that uses AI to create personalized learning content and integrates Stripe for seamless payments. The app is built with Next.js, React, Tailwind CSS, and Prisma, providing a modern and efficient learning experience.",
+      "Under Developement - A flashcard app that uses AI to create personalized learning content and integrates Stripe for seamless payments. The app is built with Next.js, React, Tailwind CSS, and Prisma, providing a modern and efficient learning experience. It aims to provide users with a tailored study approach that adapts to their individual learning styles and enhances retention.",
     technologies: ["Next.js", "React", "Tailwind", "Prisma", "Stripe"],
     link: "https://github.com/JazaKhan/FlashMasterAI",
+  },
+  {
+    title: "HackCamp UBC - Project",
+    image: project4,
+    description:
+      "It will take place on november 9, 2024.",
+    technologies: ["..TBD"],
+    link: "https://hackcamp.nwplus.io/",
   },
 ];
