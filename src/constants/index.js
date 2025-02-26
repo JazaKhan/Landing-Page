@@ -66,9 +66,9 @@ export const PROJECTS = [
     title: "WealthHealth",
     image: project2,
     description:
-      "Under Developement - Developing an engaging financial management app in Java to help users track expenses, manage income, and create actionable financial plans. Incorporating user stories for features like expense tracking, income management, and data persistence to support consistent and effective financial tracking. Access to project repository will be made available at the end of CPSC 210 Fall 2024 session.",
-    technologies: ["Java", "...TBD"],
-    link: "",
+      "A financial management app that allows users to track income and expenses, modify entries, and save/load data to and from files. Designed to promote financial literacy and help users manage their finances effectively. Features include adding, modifying, and deleting expenses and incomes, with the option to save progress for future use.",
+    technologies: ["Java", "Java Swing", "JSON"],
+    link: "https://github.com/JazaKhan/WealthHealth",
   },
   {
     title: "AI Flashcards & Stripe",
@@ -79,11 +79,11 @@ export const PROJECTS = [
     link: "https://github.com/JazaKhan/FlashMasterAI",
   },
   {
-    title: "HackCamp UBC - Project",
+    title: "BookLog",
     image: project4,
     description:
-      "It will take place on november 9, 2024.",
-    technologies: ["..TBD"],
-    link: "https://hackcamp.nwplus.io/",
+      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
+    technologies: ["Java", "Java Swing", "JSON"],
+    link: "",
   },
 ];
