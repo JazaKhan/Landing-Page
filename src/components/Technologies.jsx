@@ -8,7 +8,10 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { FiFramer } from "react-icons/fi";
-import { animate, motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+import { SiCplusplus } from "react-icons/si";
+
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -73,7 +76,7 @@ const Technologies = () => {
           <FaCss3Alt className="text-7xl text-blue-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -81,7 +84,7 @@ const Technologies = () => {
           <FaJava className="text-7xl text-amber-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(1.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -105,7 +108,7 @@ const Technologies = () => {
           <RiTailwindCssFill className="text-7xl text-sky-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(8)}
+          variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -113,12 +116,28 @@ const Technologies = () => {
           <FaBootstrap className="text-7xl text-violet-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2.5)}
+          variants={iconVariants(7)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FiFramer className="text-7xl text-neutral-100" />
+          <FaGithub className="text-7xl text-white-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FiFramer className="text-7xl text-green-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiCplusplus className="text-7xl text-pink-400" />
         </motion.div>
       </motion.div>
     </div>
