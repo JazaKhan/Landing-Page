@@ -1,7 +1,7 @@
 import UBC from "../assets/UBC.png"
 import Queens from "../assets/Queens.png"
 import RHS from "../assets/RHS.png"
-import { animate, motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },

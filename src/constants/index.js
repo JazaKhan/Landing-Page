@@ -1,27 +1,64 @@
+import { link } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `As a UBC Computer Science student and Software Engineering Fellow at Headstarter, I’m driven by a passion for AI and tech innovation. My tech journey started unexpectedly at a bank, where I witnessed firsthand how innovative solutions can streamline operations and enhance customer experiences. This experience ignited my curiosity and set me on a path to develop robust problem-solving and teamwork skills. I am dedicated to creating AI-driven solutions that tackle complex problems and elevate user experiences.`;
+export const HERO_CONTENT = `I am a Computer Science student at the University of British Columbia with experience building and coordinating real software projects in team environments. I began my technical path after working in retail banking, where I saw how efficient digital systems directly improve both operations and customer experience. Since then, I have taken on leadership and development roles in student organizations, managing project scope, organizing tasks, and contributing to full-stack applications. I have worked with technologies including React, Next.js, Python, and FastAPI, and I am motivated to build practical, scalable software solutions that solve meaningful problems.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - 2024",
+    year: "Sept 2025 - Present",
+    role: "Project Manager",
+    company: "Google Developer Student Club UBC (GDSC)",
+    description: "As Project Manager at GDSC UBC, I lead planning and coordination for a data-driven web project focused on grid demand and solar forecasting. I manage scope, task breakdowns, and priorities across frontend, backend, and data contributors, ensuring steady progress toward a clearly defined MVP. This role has strengthened my ability to translate ambiguous ideas into structured, executable plans.",
+    technologies: ["Project Planning", "Agile / Scrum", "Leadership", "Communication"],
+  },
+  {
+    year: "Aug 2025 - Present",
+    role: "Web Designer",
+    company: "Youcode @ UBC (Click Here!)",
+    description: "I designed the official YouCode hackathon website in Figma, translating event requirements into a polished, user-focused interface. I worked closely with a team of 7+ organizers and contributors to iterate on layout, accessibility, and content clarity, ensuring information was easy to navigate for participants. This experience strengthened my ability to collaborate across roles and design effectively within real-world constraints.",
+    technologies: ["Team Collaboration", "UI/UX Design", "Accessibility", "Figma"],
+    link: "https://ubcyoucode.com/"
+  },
+  {
+    year: "May 2025 - Present",
+    role: "Internal Relations Coordinator",
+    company: "Women in Computer Science UBC (WiCS)",
+    description: "I manage internal operations and community engagement for a 30-member executive team. I help plan and execute internal events, coordinate large-scale initiatives such as retreats and joint socials, and support on-the-day logistics for workshops and hackathons serving hundreds of students. My role focuses on strengthening team cohesion and ensuring smooth internal communication.",
+    technologies: ["Team Collaboration", "Communication", "Leadership", "Event Planning"],
+  },
+  {
+    year: "Apr 2025 - Present",
+    role: "Math/Coding Tutor",
+    company: "Ultimate Coders",
+    description: "I tutor students in math and computer science across a range of programming languages and tools, adapting instruction to each student’s level, goals, and curriculum. I teach in both small-group and one-on-one settings, guiding students through core concepts, problem-solving strategies, and hands-on debugging. I also lead trial sessions, support student onboarding, and help learners build long-term confidence in coding and logical thinking.",
+    technologies: ["Mentorship", "Technical Communication", "Problem Solving", "Adaptability"],
+  },
+  {
+    year: "Sept 2025 - Dec 2025",
+    role: "Mentee",
+    company: "Dell Technologies",
+    description: "Selected for a competitive mentorship program focused on early-career development in tech. I participated in structured sessions and mentor-led discussions covering AI systems, data science, cloud infrastructure, cybersecurity, and career pathways. This experience provided exposure to industry perspectives and professional growth guidance.",
+    technologies: ["Professional Developement", "Technical Literacy", "Communication"],
+  },
+  {
+    year: "July 2024 - Aug 2024",
     role: "Software Engineering Fellow",
     company: "Headstarter",
-    description: `Actively participating in a rigorous 7-week software engineering fellowship, where I am honing my technical skills through hands-on projects and intensive learning. Engaging in weekly AI projects, hackathons, and collaborative final projects aimed at real-world impact. This experience is sharpening my abilities in software development, problem-solving, and teamwork, while also providing valuable feedback from industry professionals to accelerate my career trajectory.`,
+    description: "Participated in a selective software engineering fellowship focused on hands-on learning and collaborative project development. Completed one full project while engaging in technical workshops, feedback sessions, and peer collaboration, gaining early exposure to real-world development workflows.",
     technologies: ["HTML", "CSS", "Javascript", "GitHub"],
   },
   {
-    year: "2023 - 2024",
+    year: "Oct 2023 - Apr 2024",
     role: "Design Team Member",
     company: "QMIND",
     description: `As a member of QMind at Queen's University, I actively contributed to the club's initiatives by supporting project efforts and providing valuable input to advance our goals. My involvement played a role in enhancing the club’s activities and impact.`,
     technologies: ["Team Collaboration", "Research", "Problem Solving"],
   },
   {
-    year: "2022 - 2023",
+    year: "Sept 2022 - Aug 2023",
     role: "Member Service Representative",
     company: "Coast Capital Savings",
     description: `As a Member Service Representative at Coast Capital Savings, I excelled in delivering exceptional customer service by offering personalized financial advice and resolving complex inquiries with precision. My proactive approach in identifying and addressing member needs led to increased satisfaction and strengthened client relationships, driving the branch's performance and growth.`,
@@ -33,7 +70,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "2022 - 2023",
+    year: "June 2022 - Jan 2023",
     role: "Sales Associate",
     company: "Pandora",
     description: `As a Sales Associate at Pandora Jewelry, I delivered exceptional customer service by understanding clients' needs and recommending tailored jewelry solutions. I managed inventory efficiently and contributed to achieving sales targets, all while maintaining a high standard of store presentation and creating a memorable shopping experience for each customer.`,
@@ -45,7 +82,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "2020 - 2022",
+    year: "Dec 2020 - Feb 2022",
     role: "Crew Member",
     company: "McDonald's Canada",
     description: `Delivered exceptional customer service and maintained operational efficiency in a fast-paced environment at McDonald's.`,
@@ -55,12 +92,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Landing Page",
-    image: project1,
+    title: "SolarPredict",
+    image: project3,
     description:
-      "A personal website created using React and styled with Tailwind CSS. This responsive site showcases my portfolio, skills, and projects. It features an intuitive layout, smooth navigation, and modern design elements, providing a professional online presence.",
-    technologies: ["Tailwind CSS", "React", "Framer Motion"],
-    link: "https://jazakhan.com/",
+      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
+    technologies: ["Java", "Java Swing", "JSON", "JUnit"],
+    link: "",
+  },
+  {
+    title: "BookLog",
+    image: project4,
+    description:
+      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
+    technologies: ["Java", "Java Swing", "JSON", "JUnit"],
+    link: "",
   },
   {
     title: "WealthHealth",
@@ -71,19 +116,11 @@ export const PROJECTS = [
     link: "https://github.com/JazaKhan/WealthHealth",
   },
   {
-    title: "AI Flashcards & Stripe",
-    image: project3,
+    title: "Landing Page",
+    image: project1,
     description:
-      "Under Developement - A flashcard app that uses AI to create personalized learning content and integrates Stripe for seamless payments. The app is built with Next.js, React, Tailwind CSS, and Prisma, providing a modern and efficient learning experience. It aims to provide users with a tailored study approach that adapts to their individual learning styles and enhances retention.",
-    technologies: ["Next.js", "React", "Tailwind", "Prisma", "Stripe"],
-    link: "https://github.com/JazaKhan/FlashMasterAI",
-  },
-  {
-    title: "BookLog",
-    image: project4,
-    description:
-      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
-    technologies: ["Java", "Java Swing", "JSON"],
-    link: "",
+      "A personal website created using React and styled with Tailwind CSS. This responsive site showcases my portfolio, skills, and projects. It features an intuitive layout, smooth navigation, and modern design elements, providing a professional online presence.",
+    technologies: ["Tailwind CSS", "React", "Framer Motion"],
+    link: "https://jazakhan.com/",
   },
 ];
