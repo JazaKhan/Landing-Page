@@ -5,6 +5,8 @@ This responsive site showcases my **experiences, skills, and projects**.
 It features smooth navigation and modern design elements, providing a 
 professional online presence.
 
+Access: https://www.jazakhan.com/
+
 ### Tech Stack
 - Tailwind CSS
 - React
@@ -14,8 +16,3 @@ professional online presence.
 - Responsive Design
 - Smooth Navigation
 - Modern UI
-
-### Reference
-
-This project was created by following this tutorial by compiletab:
-- [https://www.youtube.com/watch?v=_63mEm3AMSY&t=26s&ab_channel=compiletab]
