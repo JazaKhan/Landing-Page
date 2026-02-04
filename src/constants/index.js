@@ -1,6 +1,7 @@
 import { link } from "framer-motion/client";
+import project from "../assets/projects/project.jpg";
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
@@ -11,7 +12,7 @@ export const EXPERIENCES = [
     year: "Sept 2025 - Present",
     role: "Project Manager",
     company: "Google Developer Student Club UBC (GDSC)",
-    description: "As Project Manager at GDSC UBC, I lead planning and coordination for a data-driven web project focused on grid demand and solar forecasting. I manage scope, task breakdowns, and priorities across frontend, backend, and data contributors, ensuring steady progress toward a clearly defined MVP. This role has strengthened my ability to translate ambiguous ideas into structured, executable plans.",
+    description: "At GDSC UBC, I lead the development of ReWear, a sustainability-focused web product built by a small engineering team. I drive product direction, break high-level ideas into concrete features, and work closely with developers on technical decisions and implementation as we build toward an MVP. This role sits at the intersection of product thinking and engineering execution.",
     technologies: ["Project Planning", "Agile / Scrum", "Leadership", "Communication"],
   },
   {
@@ -92,20 +93,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "SolarPredict",
-    image: project3,
+    title: "ReWear - In Progress",
+    image: project,
     description:
-      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
-    technologies: ["Java", "Java Swing", "JSON", "JUnit"],
-    link: "",
+      "A sustainability-focused wardrobe assistant developed as part of GDSC to help users better understand, reuse, and make more informed, longer-lasting clothing choices. Currently owning end-to-end product development, including system design, user flows, and full-stack implementation, with supporting design work.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Figma", "Miro"],
+    link: "https://github.com/JazaKhan/ReWear",
   },
   {
-    title: "BookLog",
-    image: project4,
+    title: "Friend, Fan, or Foe - Instagram Edition",
+    image: project3,
     description:
-      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
-    technologies: ["Java", "Java Swing", "JSON", "JUnit"],
-    link: "",
+      "A small, fun side project built with R Shiny to explore data science concepts by analyzing Instagram follower and following data. The app identifies mutuals and non-mutual relationships using user-uploaded JSON data.",
+    technologies: ["R", "Shiny"],
+    link: "https://jkcodes.shinyapps.io/friend-fan-or-foe/",
   },
   {
     title: "WealthHealth",
@@ -114,6 +115,14 @@ export const PROJECTS = [
       "A financial management app that allows users to track income and expenses, modify entries, and save/load data to and from files. Designed to promote financial literacy and help users manage their finances effectively. Features include adding, modifying, and deleting expenses and incomes, with the option to save progress for future use.",
     technologies: ["Java", "Java Swing", "JSON"],
     link: "https://github.com/JazaKhan/WealthHealth",
+  },
+  {
+    title: "BookLog (No access yet...)",
+    image: project4,
+    description:
+      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
+    technologies: ["Java", "Java Swing", "JSON", "JUnit"],
+    link: "",
   },
   {
     title: "Landing Page",
