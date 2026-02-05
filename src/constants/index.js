@@ -1,9 +1,7 @@
-import { link } from "framer-motion/client";
 import project from "../assets/projects/project.jpg";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a Computer Science student at the University of British Columbia with experience building and coordinating real software projects in team environments. I began my technical path after working in retail banking, where I saw how efficient digital systems directly improve both operations and customer experience. Since then, I have taken on leadership and development roles in student organizations, managing project scope, organizing tasks, and contributing to full-stack applications. I have worked with technologies including React, Next.js, Python, and FastAPI, and I am motivated to build practical, scalable software solutions that solve meaningful problems.`;
