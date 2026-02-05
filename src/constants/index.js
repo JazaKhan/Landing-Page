@@ -4,6 +4,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a Computer Science student at the University of British Columbia with experience building and coordinating real software projects in team environments. I began my technical path after working in retail banking, where I saw how efficient digital systems directly improve both operations and customer experience. Since then, I have taken on leadership and development roles in student organizations, managing project scope, organizing tasks, and contributing to full-stack applications. I have worked with technologies including React, Next.js, Python, and FastAPI, and I am motivated to build practical, scalable software solutions that solve meaningful problems.`;
 
@@ -101,6 +102,14 @@ export const PROJECTS = [
     link: "https://github.com/JazaKhan/ReWear",
   },
   {
+    title: "BookLog",
+    image: project5,
+    description:
+      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
+    technologies: ["Java", "Java Swing", "JSON", "JUnit"],
+    link: "https://github.com/JazaKhan/bookLog",
+  },
+  {
     title: "Friend, Fan, or Foe - Instagram Edition",
     image: project3,
     description:
@@ -115,14 +124,6 @@ export const PROJECTS = [
       "A financial management app that allows users to track income and expenses, modify entries, and save/load data to and from files. Designed to promote financial literacy and help users manage their finances effectively. Features include adding, modifying, and deleting expenses and incomes, with the option to save progress for future use.",
     technologies: ["Java", "Java Swing", "JSON"],
     link: "https://github.com/JazaKhan/WealthHealth",
-  },
-  {
-    title: "BookLog (No access yet...)",
-    image: project4,
-    description:
-      "Developing a Java-based book tracking app that helps users manage their reading lists by adding, modifying, and removing books. Features include data persistence with JSON and a GUI built with Java Swing for an interactive experience. Designed with improved coding practices for better maintainability and scalability.",
-    technologies: ["Java", "Java Swing", "JSON", "JUnit"],
-    link: "",
   },
   {
     title: "Landing Page",
