@@ -4,9 +4,18 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `I am a Computer Science student at the University of British Columbia with experience building and coordinating real software projects in team environments. I began my technical path after working in retail banking, where I saw how efficient digital systems directly improve both operations and customer experience. Since then, I have taken on leadership and development roles in student organizations, managing project scope, organizing tasks, and contributing to full-stack applications. I have worked with technologies including React, Next.js, Python, and FastAPI, and I am motivated to build practical, scalable software solutions that solve meaningful problems.`;
+export const HERO_CONTENT = `Hi! I'm a computer science student at UBC who enjoys building thoughtful software and understanding how complex systems work behind the scenes. I’m especially interested in how technology, people, and ideas interact, and I like turning ideas from “this would be cool if it existed” into real products through full stack development and product-focused problem solving.
+
+Outside of tech, I spend a lot of time hiking, traveling, and reading. Lately I’ve been alternating between reading Sapiens by Yuval Noah Harari and listening to “Canyon Moon” by Harry Styles. I’m always interested in things that make you think or see the world a little differently, so if you have any recommendations feel free to reach out :)`;
 
 export const EXPERIENCES = [
+  {
+    year: "March 2026 - Present",
+    role: "Software Developer (Riipen level up)",
+    company: "UNUHR Inc.",
+    description: "Through Riipen Level UP, I work on the development of a mobile and web platform for UNUHR designed to connect underrepresented job seekers with inclusive employers. I collaborate with a small development team to translate UX research and product requirements into functional features, contributing to both frontend and backend implementation as the platform progresses toward an MVP.",
+    technologies: ["Full Stack Development", "Product Collaboration","Agile Development"],
+  },
   {
     year: "Sept 2025 - Present",
     role: "Project Manager",
