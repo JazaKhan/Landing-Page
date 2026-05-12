@@ -1,7 +1,6 @@
-import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
 
-const Experience = () => {
+const Experience = ({ experiences = [] }) => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -13,8 +12,8 @@ const Experience = () => {
         Experience
       </motion.h2>
       <div>
-        {EXPERIENCES.map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg: justify-center">
+        {experiences.map((experience, index) => (
+          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -33,10 +32,10 @@ const Experience = () => {
                 {experience.role} -{" "}
                 <span className="text-sm text-purple-100">
                   <a
-                  href= {experience.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline text-slate-200"
+                    href={experience.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline text-slate-200"
                   >
                     {experience.company}
                   </a>

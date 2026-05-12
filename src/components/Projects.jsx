@@ -1,7 +1,6 @@
-import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 
-const Projects = () => {
+const Projects = ({ projects = [] }) => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -13,7 +12,7 @@ const Projects = () => {
         Projects (Click on titles for links!)
       </motion.h2>
       <div>
-        {PROJECTS.map((project, index) => (
+        {projects.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -21,7 +20,6 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              {" "}
               <img
                 src={project.image}
                 alt={project.title}
@@ -37,9 +35,8 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold text-slate-200">
-                {" "}
                 <a
-                  href= {project.link}
+                  href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline text-slate-200"

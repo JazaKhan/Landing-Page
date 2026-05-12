@@ -1,4 +1,3 @@
-import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/Jaza.jpeg";
 import { motion } from "framer-motion";
 
@@ -11,7 +10,7 @@ const container = (delay) => ({
   },
 });
 
-const Hero = () => {
+const Hero = ({ name = "Jaza Khan", title = "Software Developer", bio = "" }) => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-36">
       <div className="flex flex-wrap">
@@ -23,7 +22,7 @@ const Hero = () => {
               animate="visible"
               className="pb-10 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl text-slate-50"
             >
-              Jaza Khan
+              {name}
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -31,7 +30,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              Software Developer
+              {title}
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -39,7 +38,7 @@ const Hero = () => {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              {HERO_CONTENT}
+              {bio}
             </motion.p>
           </div>
         </div>
@@ -50,7 +49,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
-              alt="Jaza Khan"
+              alt={name}
               className="w-480 rounded-2xl shadow-lg object-cover"
             />
           </div>
